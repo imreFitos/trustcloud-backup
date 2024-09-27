@@ -15,7 +15,13 @@ This is a script written in Python, it uses only the commonly available python l
 
 ## Usage
 
-./backup.y [name of directory to download data to - should not exist yet]
+```
+export TRUSTCLOUD_API_KEY='your API key here'
+
+chmod 700 backup.py
+
+./backup.py [name of directory to download data to - should not exist yet]
+```
 
 ## Contributing
 
